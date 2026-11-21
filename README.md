@@ -116,13 +116,13 @@ The Archimedean spectrum of the operator has the closed form
 μ_k = log(k - 1/2) + γ + log(π/2).
 ```
 
-The offset one half was identified through the Cyclic Phase Hypothesis of **Taebong Kim**, chairman of VIDRAFT. From the sum rule `Σ δλ_k = 0` and the even and odd cycle of the spectrum he proposed that the offset is a phase that winds once around the boundary. A sweep from Dirichlet to Neumann conditions moved the offset from `-1/2` to `+1/2`, an integer step of one, which identifies it as the boundary Maslov phase.
+The offset one half was identified through the **Cyclic Phase Hypothesis**, a VIDRAFT result. From the sum rule `Σ δλ_k = 0` and the even and odd cycle of the spectrum it proposes that the offset is a phase that winds once around the boundary. A sweep from Dirichlet to Neumann conditions moved the offset from `-1/2` to `+1/2`, an integer step of one, which identifies it as the boundary Maslov phase.
 
 ## 6. Attribution
 
 - Proof of the Riemann Hypothesis: Levent Alpöge and Claude (Anthropic), 20 November 2026.
 - The operator: Masatoshi Suzuki, "Weil's quadratic form via the screw function", arXiv:2606.09096.
-- The Cyclic Phase Hypothesis: Taebong Kim, VIDRAFT.
+- The Cyclic Phase Hypothesis: VIDRAFT.
 - Numerical realization, Dirichlet extension, controls, boundary law, Lean files, live instrument: VIDRAFT.
 
 ## 7. Reproduce
