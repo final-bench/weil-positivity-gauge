@@ -1,0 +1,882 @@
+[
+ {
+  "case": "zeta (reference, reproduces R7)",
+  "kind": "L",
+  "a": 0.2,
+  "n_terms": 0,
+  "lam800": 0.09515490678595931,
+  "lam1600": 0.09504314669026928,
+  "ratio": 1.0011758880001547,
+  "verdict": "positive (converged)"
+ },
+ {
+  "case": "zeta (reference, reproduces R7)",
+  "kind": "L",
+  "a": 0.3,
+  "n_terms": 0,
+  "lam800": 0.007624798147340189,
+  "lam1600": 0.007598402746841606,
+  "ratio": 1.0034738090856734,
+  "verdict": "positive (converged)"
+ },
+ {
+  "case": "zeta (reference, reproduces R7)",
+  "kind": "L",
+  "a": 0.35,
+  "n_terms": 1,
+  "lam800": 0.0012024696053927531,
+  "lam1600": 0.0011980213930298256,
+  "ratio": 1.0037129657189827,
+  "verdict": "positive (converged)"
+ },
+ {
+  "case": "zeta (reference, reproduces R7)",
+  "kind": "L",
+  "a": 0.4,
+  "n_terms": 1,
+  "lam800": 0.0001834391730107486,
+  "lam1600": 0.00018231662510250895,
+  "ratio": 1.0061571340935502,
+  "verdict": "positive (converged)"
+ },
+ {
+  "case": "zeta (reference, reproduces R7)",
+  "kind": "L",
+  "a": 0.45,
+  "n_terms": 1,
+  "lam800": 1.6648321605925776e-05,
+  "lam1600": 1.6343526405816316e-05,
+  "ratio": 1.0186492922360373,
+  "verdict": "positive (converged)"
+ },
+ {
+  "case": "zeta (reference, reproduces R7)",
+  "kind": "L",
+  "a": 0.5,
+  "n_terms": 1,
+  "lam800": 1.2324141826670084e-06,
+  "lam1600": 1.0166154072430288e-06,
+  "ratio": 1.2122717931348364,
+  "verdict": "below resolution"
+ },
+ {
+  "case": "zeta (reference, reproduces R7)",
+  "kind": "L",
+  "a": 0.55,
+  "n_terms": 2,
+  "lam800": 3.77505221234604e-07,
+  "lam1600": 1.3962804868641702e-07,
+  "ratio": 2.703648907121966,
+  "verdict": "below resolution"
+ },
+ {
+  "case": "zeta (reference, reproduces R7)",
+  "kind": "L",
+  "a": 0.6,
+  "n_terms": 2,
+  "lam800": 3.638681397882146e-07,
+  "lam1600": 9.846848881035757e-08,
+  "ratio": 3.6952749471863586,
+  "verdict": "below resolution"
+ },
+ {
+  "case": "zeta (reference, reproduces R7)",
+  "kind": "L",
+  "a": 0.7,
+  "n_terms": 3,
+  "lam800": 2.4785602413755924e-07,
+  "lam1600": 7.207277312348516e-08,
+  "ratio": 3.4389688837544465,
+  "verdict": "below resolution"
+ },
+ {
+  "case": "zeta (reference, reproduces R7)",
+  "kind": "L",
+  "a": 0.85,
+  "n_terms": 4,
+  "lam800": 2.393556915910273e-07,
+  "lam1600": 6.672949509518378e-08,
+  "ratio": 3.5869549327416212,
+  "verdict": "below resolution"
+ },
+ {
+  "case": "zeta (reference, reproduces R7)",
+  "kind": "L",
+  "a": 1.0,
+  "n_terms": 5,
+  "lam800": 2.0076291416621718e-07,
+  "lam1600": 5.562392690115362e-08,
+  "ratio": 3.6092905580539556,
+  "verdict": "below resolution"
+ },
+ {
+  "case": "chi mod 3 (odd)",
+  "kind": "L",
+  "a": 0.2,
+  "n_terms": 0,
+  "lam800": 0.6239415301966513,
+  "lam1600": 0.6236479639564914,
+  "ratio": 1.0004707242821695,
+  "verdict": "positive (converged)"
+ },
+ {
+  "case": "chi mod 3 (odd)",
+  "kind": "L",
+  "a": 0.3,
+  "n_terms": 0,
+  "lam800": 0.2671283473530085,
+  "lam1600": 0.26685059751775836,
+  "ratio": 1.0010408439697485,
+  "verdict": "positive (converged)"
+ },
+ {
+  "case": "chi mod 3 (odd)",
+  "kind": "L",
+  "a": 0.35,
+  "n_terms": 1,
+  "lam800": 0.13875592587155522,
+  "lam1600": 0.13855155980462253,
+  "ratio": 1.001475018160899,
+  "verdict": "positive (converged)"
+ },
+ {
+  "case": "chi mod 3 (odd)",
+  "kind": "L",
+  "a": 0.4,
+  "n_terms": 1,
+  "lam800": 0.0763593386249326,
+  "lam1600": 0.07624312072844316,
+  "ratio": 1.0015243066571655,
+  "verdict": "positive (converged)"
+ },
+ {
+  "case": "chi mod 3 (odd)",
+  "kind": "L",
+  "a": 0.45,
+  "n_terms": 1,
+  "lam800": 0.0416769151300648,
+  "lam1600": 0.041600378695751436,
+  "ratio": 1.0018398013843364,
+  "verdict": "positive (converged)"
+ },
+ {
+  "case": "chi mod 3 (odd)",
+  "kind": "L",
+  "a": 0.5,
+  "n_terms": 1,
+  "lam800": 0.021259621089109573,
+  "lam1600": 0.021209874779137654,
+  "ratio": 1.0023454315732618,
+  "verdict": "positive (converged)"
+ },
+ {
+  "case": "chi mod 3 (odd)",
+  "kind": "L",
+  "a": 0.55,
+  "n_terms": 1,
+  "lam800": 0.00960971140281527,
+  "lam1600": 0.009579821136549456,
+  "ratio": 1.0031201278019457,
+  "verdict": "positive (converged)"
+ },
+ {
+  "case": "chi mod 3 (odd)",
+  "kind": "L",
+  "a": 0.6,
+  "n_terms": 1,
+  "lam800": 0.0035513417573113234,
+  "lam1600": 0.003535748729290417,
+  "ratio": 1.0044101063776767,
+  "verdict": "positive (converged)"
+ },
+ {
+  "case": "chi mod 3 (odd)",
+  "kind": "L",
+  "a": 0.7,
+  "n_terms": 2,
+  "lam800": 0.0002072788621994164,
+  "lam1600": 0.0002057233952144561,
+  "ratio": 1.0075609630267808,
+  "verdict": "positive (converged)"
+ },
+ {
+  "case": "chi mod 3 (odd)",
+  "kind": "L",
+  "a": 0.85,
+  "n_terms": 3,
+  "lam800": 1.5050493437344207e-06,
+  "lam1600": 1.2727324838917325e-06,
+  "ratio": 1.182533928208004,
+  "verdict": "below resolution"
+ },
+ {
+  "case": "chi mod 3 (odd)",
+  "kind": "L",
+  "a": 1.0,
+  "n_terms": 4,
+  "lam800": 3.557736914430085e-07,
+  "lam1600": 9.737984897409905e-08,
+  "ratio": 3.6534631670833324,
+  "verdict": "below resolution"
+ },
+ {
+  "case": "chi mod 4 (odd)",
+  "kind": "L",
+  "a": 0.2,
+  "n_terms": 0,
+  "lam800": 0.9116233753521468,
+  "lam1600": 0.9113299343050705,
+  "ratio": 1.0003219921084894,
+  "verdict": "positive (converged)"
+ },
+ {
+  "case": "chi mod 4 (odd)",
+  "kind": "L",
+  "a": 0.3,
+  "n_terms": 0,
+  "lam800": 0.554810202944779,
+  "lam1600": 0.554532572699207,
+  "ratio": 1.0005006563351557,
+  "verdict": "positive (converged)"
+ },
+ {
+  "case": "chi mod 4 (odd)",
+  "kind": "L",
+  "a": 0.35,
+  "n_terms": 0,
+  "lam800": 0.4249244344991724,
+  "lam1600": 0.4246546233832445,
+  "ratio": 1.000635366015277,
+  "verdict": "positive (converged)"
+ },
+ {
+  "case": "chi mod 4 (odd)",
+  "kind": "L",
+  "a": 0.4,
+  "n_terms": 0,
+  "lam800": 0.3155876483483311,
+  "lam1600": 0.315325567357457,
+  "ratio": 1.000831144118983,
+  "verdict": "positive (converged)"
+ },
+ {
+  "case": "chi mod 4 (odd)",
+  "kind": "L",
+  "a": 0.45,
+  "n_terms": 0,
+  "lam800": 0.22190823557575406,
+  "lam1600": 0.22165377577661402,
+  "ratio": 1.001148005705062,
+  "verdict": "positive (converged)"
+ },
+ {
+  "case": "chi mod 4 (odd)",
+  "kind": "L",
+  "a": 0.5,
+  "n_terms": 0,
+  "lam800": 0.14054099287085142,
+  "lam1600": 0.1402940286851282,
+  "ratio": 1.0017603328383813,
+  "verdict": "positive (converged)"
+ },
+ {
+  "case": "chi mod 4 (odd)",
+  "kind": "L",
+  "a": 0.55,
+  "n_terms": 1,
+  "lam800": 0.06914767614476738,
+  "lam1600": 0.06897641827021833,
+  "ratio": 1.002482846729996,
+  "verdict": "positive (converged)"
+ },
+ {
+  "case": "chi mod 4 (odd)",
+  "kind": "L",
+  "a": 0.6,
+  "n_terms": 1,
+  "lam800": 0.034602200449121,
+  "lam1600": 0.034508006604837355,
+  "ratio": 1.0027296228774465,
+  "verdict": "positive (converged)"
+ },
+ {
+  "case": "chi mod 4 (odd)",
+  "kind": "L",
+  "a": 0.7,
+  "n_terms": 1,
+  "lam800": 0.006580730902926755,
+  "lam1600": 0.006550393875147825,
+  "ratio": 1.0046313287959718,
+  "verdict": "positive (converged)"
+ },
+ {
+  "case": "chi mod 4 (odd)",
+  "kind": "L",
+  "a": 0.85,
+  "n_terms": 2,
+  "lam800": 0.00014501466305711622,
+  "lam1600": 0.00014368683841019342,
+  "ratio": 1.0092411014231668,
+  "verdict": "positive (converged)"
+ },
+ {
+  "case": "chi mod 4 (odd)",
+  "kind": "L",
+  "a": 1.0,
+  "n_terms": 3,
+  "lam800": 8.972163852443944e-07,
+  "lam1600": 6.840073142994016e-07,
+  "ratio": 1.3117058348467712,
+  "verdict": "below resolution"
+ },
+ {
+  "case": "chi mod 5 quadratic (even)",
+  "kind": "L",
+  "a": 0.2,
+  "n_terms": 0,
+  "lam800": 0.9421792503286841,
+  "lam1600": 0.9418224714019986,
+  "ratio": 1.0003788175983468,
+  "verdict": "positive (converged)"
+ },
+ {
+  "case": "chi mod 5 quadratic (even)",
+  "kind": "L",
+  "a": 0.3,
+  "n_terms": 0,
+  "lam800": 0.4901183178296595,
+  "lam1600": 0.48974660584238955,
+  "ratio": 1.000758988388762,
+  "verdict": "positive (converged)"
+ },
+ {
+  "case": "chi mod 5 quadratic (even)",
+  "kind": "L",
+  "a": 0.35,
+  "n_terms": 1,
+  "lam800": 0.31501203848929293,
+  "lam1600": 0.3147178658502673,
+  "ratio": 1.0009347185874906,
+  "verdict": "positive (converged)"
+ },
+ {
+  "case": "chi mod 5 quadratic (even)",
+  "kind": "L",
+  "a": 0.4,
+  "n_terms": 1,
+  "lam800": 0.21629822966620832,
+  "lam1600": 0.21608879843460363,
+  "ratio": 1.0009691905972076,
+  "verdict": "positive (converged)"
+ },
+ {
+  "case": "chi mod 5 quadratic (even)",
+  "kind": "L",
+  "a": 0.45,
+  "n_terms": 1,
+  "lam800": 0.14628425523199814,
+  "lam1600": 0.14610357191340578,
+  "ratio": 1.0012366796802166,
+  "verdict": "positive (converged)"
+ },
+ {
+  "case": "chi mod 5 quadratic (even)",
+  "kind": "L",
+  "a": 0.5,
+  "n_terms": 1,
+  "lam800": 0.09045405557783055,
+  "lam1600": 0.09028795713955391,
+  "ratio": 1.0018396521921513,
+  "verdict": "positive (converged)"
+ },
+ {
+  "case": "chi mod 5 quadratic (even)",
+  "kind": "L",
+  "a": 0.55,
+  "n_terms": 2,
+  "lam800": 0.04318646985124216,
+  "lam1600": 0.04307211824285312,
+  "ratio": 1.0026548870372312,
+  "verdict": "positive (converged)"
+ },
+ {
+  "case": "chi mod 5 quadratic (even)",
+  "kind": "L",
+  "a": 0.6,
+  "n_terms": 2,
+  "lam800": 0.020433775112307782,
+  "lam1600": 0.02037394802849427,
+  "ratio": 1.0029364502024762,
+  "verdict": "positive (converged)"
+ },
+ {
+  "case": "chi mod 5 quadratic (even)",
+  "kind": "L",
+  "a": 0.7,
+  "n_terms": 3,
+  "lam800": 0.004799596377304045,
+  "lam1600": 0.0047840344948655335,
+  "ratio": 1.0032528783927486,
+  "verdict": "positive (converged)"
+ },
+ {
+  "case": "chi mod 5 quadratic (even)",
+  "kind": "L",
+  "a": 0.85,
+  "n_terms": 3,
+  "lam800": 0.00020605349521576576,
+  "lam1600": 0.00020423758461637833,
+  "ratio": 1.0088911676212695,
+  "verdict": "positive (converged)"
+ },
+ {
+  "case": "chi mod 5 quadratic (even)",
+  "kind": "L",
+  "a": 1.0,
+  "n_terms": 4,
+  "lam800": 2.3409319391862717e-06,
+  "lam1600": 2.105229710244304e-06,
+  "ratio": 1.1119603375322948,
+  "verdict": "below resolution"
+ },
+ {
+  "case": "chi mod 8 (even)",
+  "kind": "L",
+  "a": 0.2,
+  "n_terms": 0,
+  "lam800": 1.4121824436342125,
+  "lam1600": 1.4118259041022863,
+  "ratio": 1.0002525378879155,
+  "verdict": "positive (converged)"
+ },
+ {
+  "case": "chi mod 8 (even)",
+  "kind": "L",
+  "a": 0.3,
+  "n_terms": 0,
+  "lam800": 0.960121497113805,
+  "lam1600": 0.9597500320103539,
+  "ratio": 1.0003870435957922,
+  "verdict": "positive (converged)"
+ },
+ {
+  "case": "chi mod 8 (even)",
+  "kind": "L",
+  "a": 0.35,
+  "n_terms": 0,
+  "lam800": 0.7830463742502123,
+  "lam1600": 0.7826677738269749,
+  "ratio": 1.0004837306912306,
+  "verdict": "positive (converged)"
+ },
+ {
+  "case": "chi mod 8 (even)",
+  "kind": "L",
+  "a": 0.4,
+  "n_terms": 0,
+  "lam800": 0.62687079468754,
+  "lam1600": 0.6264853009730703,
+  "ratio": 1.0006153276283911,
+  "verdict": "positive (converged)"
+ },
+ {
+  "case": "chi mod 8 (even)",
+  "kind": "L",
+  "a": 0.45,
+  "n_terms": 0,
+  "lam800": 0.48674579680766905,
+  "lam1600": 0.4863536680036258,
+  "ratio": 1.0008062626640668,
+  "verdict": "positive (converged)"
+ },
+ {
+  "case": "chi mod 8 (even)",
+  "kind": "L",
+  "a": 0.5,
+  "n_terms": 0,
+  "lam800": 0.35936616273406535,
+  "lam1600": 0.35896767288285447,
+  "ratio": 1.0011100995474345,
+  "verdict": "positive (converged)"
+ },
+ {
+  "case": "chi mod 8 (even)",
+  "kind": "L",
+  "a": 0.55,
+  "n_terms": 1,
+  "lam800": 0.24245906370432263,
+  "lam1600": 0.2421620158481269,
+  "ratio": 1.001226649254448,
+  "verdict": "positive (converged)"
+ },
+ {
+  "case": "chi mod 8 (even)",
+  "kind": "L",
+  "a": 0.6,
+  "n_terms": 1,
+  "lam800": 0.17488804207177833,
+  "lam1600": 0.17467017054405487,
+  "ratio": 1.0012473310528343,
+  "verdict": "positive (converged)"
+ },
+ {
+  "case": "chi mod 8 (even)",
+  "kind": "L",
+  "a": 0.7,
+  "n_terms": 1,
+  "lam800": 0.0873103610347884,
+  "lam1600": 0.08714969277784079,
+  "ratio": 1.0018435894818032,
+  "verdict": "positive (converged)"
+ },
+ {
+  "case": "chi mod 8 (even)",
+  "kind": "L",
+  "a": 0.85,
+  "n_terms": 2,
+  "lam800": 0.01243292363689616,
+  "lam1600": 0.01237874289432818,
+  "ratio": 1.0043769179980953,
+  "verdict": "positive (converged)"
+ },
+ {
+  "case": "chi mod 8 (even)",
+  "kind": "L",
+  "a": 1.0,
+  "n_terms": 3,
+  "lam800": 0.0009306759554318015,
+  "lam1600": 0.0009245544040528272,
+  "ratio": 1.0066210829261537,
+  "verdict": "positive (converged)"
+ },
+ {
+  "case": "C1 control: zeta primes, pole term removed",
+  "kind": "CONTROL",
+  "a": 0.2,
+  "n_terms": 0,
+  "lam800": -0.6672571709202662,
+  "lam1600": -0.6676147685298228,
+  "ratio": 0.9994643653399937,
+  "verdict": "NEGATIVE (converged)"
+ },
+ {
+  "case": "C1 control: zeta primes, pole term removed",
+  "kind": "CONTROL",
+  "a": 0.3,
+  "n_terms": 0,
+  "lam800": -1.1193180553814597,
+  "lam1600": -1.1196906117829317,
+  "ratio": 0.9996672684422362,
+  "verdict": "NEGATIVE (converged)"
+ },
+ {
+  "case": "C1 control: zeta primes, pole term removed",
+  "kind": "CONTROL",
+  "a": 0.35,
+  "n_terms": 1,
+  "lam800": -1.2988191200340893,
+  "lam1600": -1.2993066962539936,
+  "ratio": 0.9996247412398396,
+  "verdict": "NEGATIVE (converged)"
+ },
+ {
+  "case": "C1 control: zeta primes, pole term removed",
+  "kind": "CONTROL",
+  "a": 0.4,
+  "n_terms": 1,
+  "lam800": -1.5387065446390396,
+  "lam1600": -1.5393523768413822,
+  "ratio": 0.9995804520056234,
+  "verdict": "NEGATIVE (converged)"
+ },
+ {
+  "case": "C1 control: zeta primes, pole term removed",
+  "kind": "CONTROL",
+  "a": 0.45,
+  "n_terms": 1,
+  "lam800": -1.7753954014781734,
+  "lam1600": -1.776058832073325,
+  "ratio": 0.9996264591109422,
+  "verdict": "NEGATIVE (converged)"
+ },
+ {
+  "case": "C1 control: zeta primes, pole term removed",
+  "kind": "CONTROL",
+  "a": 0.5,
+  "n_terms": 1,
+  "lam800": -1.9861778161733117,
+  "lam1600": -1.9868288055674868,
+  "ratio": 0.9996723475156235,
+  "verdict": "NEGATIVE (converged)"
+ },
+ {
+  "case": "C1 control: zeta primes, pole term removed",
+  "kind": "CONTROL",
+  "a": 0.55,
+  "n_terms": 2,
+  "lam800": -2.1718415204069257,
+  "lam1600": -2.17268222734001,
+  "ratio": 0.9996130557324466,
+  "verdict": "NEGATIVE (converged)"
+ },
+ {
+  "case": "C1 control: zeta primes, pole term removed",
+  "kind": "CONTROL",
+  "a": 0.6,
+  "n_terms": 2,
+  "lam800": -2.4150253529094403,
+  "lam1600": -2.4159998691566793,
+  "ratio": 0.9995966406042981,
+  "verdict": "NEGATIVE (converged)"
+ },
+ {
+  "case": "C1 control: zeta primes, pole term removed",
+  "kind": "CONTROL",
+  "a": 0.7,
+  "n_terms": 3,
+  "lam800": -2.865070652308341,
+  "lam1600": -2.866163123186193,
+  "ratio": 0.9996188385549257,
+  "verdict": "NEGATIVE (converged)"
+ },
+ {
+  "case": "C1 control: zeta primes, pole term removed",
+  "kind": "CONTROL",
+  "a": 0.85,
+  "n_terms": 4,
+  "lam800": -3.5700640783885467,
+  "lam1600": -3.5715474399848905,
+  "ratio": 0.9995846725764477,
+  "verdict": "NEGATIVE (converged)"
+ },
+ {
+  "case": "C1 control: zeta primes, pole term removed",
+  "kind": "CONTROL",
+  "a": 1.0,
+  "n_terms": 5,
+  "lam800": -4.302393320986498,
+  "lam1600": -4.304213224211785,
+  "ratio": 0.999577180978152,
+  "verdict": "NEGATIVE (converged)"
+ },
+ {
+  "case": "C2 control: chi mod 3 with wrong parity nu=1/4",
+  "kind": "CONTROL",
+  "a": 0.2,
+  "n_terms": 0,
+  "lam800": 0.4313541001164535,
+  "lam1600": 0.43099706116760406,
+  "ratio": 1.0008284022816354,
+  "verdict": "positive (converged)"
+ },
+ {
+  "case": "C2 control: chi mod 3 with wrong parity nu=1/4",
+  "kind": "CONTROL",
+  "a": 0.3,
+  "n_terms": 0,
+  "lam800": -0.020706817127689375,
+  "lam1600": -0.021078797264153144,
+  "ratio": 0.9823528765990666,
+  "verdict": "NEGATIVE (converged)"
+ },
+ {
+  "case": "C2 control: chi mod 3 with wrong parity nu=1/4",
+  "kind": "CONTROL",
+  "a": 0.35,
+  "n_terms": 1,
+  "lam800": -0.19581319060517308,
+  "lam1600": -0.1961075813263295,
+  "ratio": 0.9984988304931132,
+  "verdict": "NEGATIVE (converged)"
+ },
+ {
+  "case": "C2 control: chi mod 3 with wrong parity nu=1/4",
+  "kind": "CONTROL",
+  "a": 0.4,
+  "n_terms": 1,
+  "lam800": -0.2945271114880545,
+  "lam1600": -0.29473669885076426,
+  "ratio": 0.9992888996737529,
+  "verdict": "NEGATIVE (converged)"
+ },
+ {
+  "case": "C2 control: chi mod 3 with wrong parity nu=1/4",
+  "kind": "CONTROL",
+  "a": 0.45,
+  "n_terms": 1,
+  "lam800": -0.36454112197875166,
+  "lam1600": -0.36472194169855177,
+  "ratio": 0.9995042258248626,
+  "verdict": "NEGATIVE (converged)"
+ },
+ {
+  "case": "C2 control: chi mod 3 with wrong parity nu=1/4",
+  "kind": "CONTROL",
+  "a": 0.5,
+  "n_terms": 1,
+  "lam800": -0.42037134018249533,
+  "lam1600": -0.4205375645978283,
+  "ratio": 0.9996047334903555,
+  "verdict": "NEGATIVE (converged)"
+ },
+ {
+  "case": "C2 control: chi mod 3 with wrong parity nu=1/4",
+  "kind": "CONTROL",
+  "a": 0.55,
+  "n_terms": 1,
+  "lam800": -0.46767206717049414,
+  "lam1600": -0.4678304024534299,
+  "ratio": 0.9996615540971571,
+  "verdict": "NEGATIVE (converged)"
+ },
+ {
+  "case": "C2 control: chi mod 3 with wrong parity nu=1/4",
+  "kind": "CONTROL",
+  "a": 0.6,
+  "n_terms": 1,
+  "lam800": -0.5096297894521489,
+  "lam1600": -0.5097862190201584,
+  "ratio": 0.9996931467305841,
+  "verdict": "NEGATIVE (converged)"
+ },
+ {
+  "case": "C2 control: chi mod 3 with wrong parity nu=1/4",
+  "kind": "CONTROL",
+  "a": 0.7,
+  "n_terms": 2,
+  "lam800": -0.5869397765934543,
+  "lam1600": -0.587156593224281,
+  "ratio": 0.9996307345717841,
+  "verdict": "NEGATIVE (converged)"
+ },
+ {
+  "case": "C2 control: chi mod 3 with wrong parity nu=1/4",
+  "kind": "CONTROL",
+  "a": 0.85,
+  "n_terms": 3,
+  "lam800": -0.7748686407521017,
+  "lam1600": -0.7751020986347429,
+  "ratio": 0.9996988037020511,
+  "verdict": "NEGATIVE (converged)"
+ },
+ {
+  "case": "C2 control: chi mod 3 with wrong parity nu=1/4",
+  "kind": "CONTROL",
+  "a": 1.0,
+  "n_terms": 4,
+  "lam800": -0.8757528389202227,
+  "lam1600": -0.8760551781741338,
+  "ratio": 0.9996548856037342,
+  "verdict": "NEGATIVE (converged)"
+ },
+ {
+  "case": "C3 control: chi mod 3 with prime signs flipped",
+  "kind": "CONTROL",
+  "a": 0.2,
+  "n_terms": 0,
+  "lam800": 0.6239415301966513,
+  "lam1600": 0.6236479639564914,
+  "ratio": 1.0004707242821695,
+  "verdict": "positive (converged)"
+ },
+ {
+  "case": "C3 control: chi mod 3 with prime signs flipped",
+  "kind": "CONTROL",
+  "a": 0.3,
+  "n_terms": 0,
+  "lam800": 0.2671283473530085,
+  "lam1600": 0.26685059751775836,
+  "ratio": 1.0010408439697485,
+  "verdict": "positive (converged)"
+ },
+ {
+  "case": "C3 control: chi mod 3 with prime signs flipped",
+  "kind": "CONTROL",
+  "a": 0.35,
+  "n_terms": 1,
+  "lam800": 0.1353443722638355,
+  "lam1600": 0.13498909025662062,
+  "ratio": 1.0026319312659968,
+  "verdict": "positive (converged)"
+ },
+ {
+  "case": "C3 control: chi mod 3 with prime signs flipped",
+  "kind": "CONTROL",
+  "a": 0.4,
+  "n_terms": 1,
+  "lam800": -0.04918147365430946,
+  "lam1600": -0.04968853078325715,
+  "ratio": 0.9897952883501528,
+  "verdict": "NEGATIVE (converged)"
+ },
+ {
+  "case": "C3 control: chi mod 3 with prime signs flipped",
+  "kind": "CONTROL",
+  "a": 0.45,
+  "n_terms": 1,
+  "lam800": -0.237472848850455,
+  "lam1600": -0.23799438193452055,
+  "ratio": 0.9978086327928151,
+  "verdict": "NEGATIVE (converged)"
+ },
+ {
+  "case": "C3 control: chi mod 3 with prime signs flipped",
+  "kind": "CONTROL",
+  "a": 0.5,
+  "n_terms": 1,
+  "lam800": -0.402470497510332,
+  "lam1600": -0.40296737479623357,
+  "ratio": 0.9987669540588668,
+  "verdict": "NEGATIVE (converged)"
+ },
+ {
+  "case": "C3 control: chi mod 3 with prime signs flipped",
+  "kind": "CONTROL",
+  "a": 0.55,
+  "n_terms": 1,
+  "lam800": -0.5427559620290985,
+  "lam1600": -0.5432198185118241,
+  "ratio": 0.9991460980124098,
+  "verdict": "NEGATIVE (converged)"
+ },
+ {
+  "case": "C3 control: chi mod 3 with prime signs flipped",
+  "kind": "CONTROL",
+  "a": 0.6,
+  "n_terms": 1,
+  "lam800": -0.6625840878149587,
+  "lam1600": -0.6630194243940369,
+  "ratio": 0.9993434029787648,
+  "verdict": "NEGATIVE (converged)"
+ },
+ {
+  "case": "C3 control: chi mod 3 with prime signs flipped",
+  "kind": "CONTROL",
+  "a": 0.7,
+  "n_terms": 2,
+  "lam800": -0.8568240347841098,
+  "lam1600": -0.8571659290088355,
+  "ratio": 0.9996011341408296,
+  "verdict": "NEGATIVE (converged)"
+ },
+ {
+  "case": "C3 control: chi mod 3 with prime signs flipped",
+  "kind": "CONTROL",
+  "a": 0.85,
+  "n_terms": 3,
+  "lam800": -1.0515523485062896,
+  "lam1600": -1.0520167105324372,
+  "ratio": 0.9995585982413602,
+  "verdict": "NEGATIVE (converged)"
+ },
+ {
+  "case": "C3 control: chi mod 3 with prime signs flipped",
+  "kind": "CONTROL",
+  "a": 1.0,
+  "n_terms": 4,
+  "lam800": -1.2861210033690793,
+  "lam1600": -1.2864131062078967,
+  "ratio": 0.9997729323205681,
+  "verdict": "NEGATIVE (converged)"
+ }
+]

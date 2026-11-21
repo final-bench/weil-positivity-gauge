@@ -1,0 +1,114 @@
+
+### zeta (reference, reproduces R7)   [nu=0.25 q=1 pole=True]
+   a      #n   lam1(N=800)        lam1(N=1600)       ratio    verdict
+   0.20   0    +9.5154906786e-02  +9.5043146690e-02  1.001    positive (converged)
+   0.30   0    +7.6247981473e-03  +7.5984027468e-03  1.003    positive (converged)
+   0.35   1    +1.2024696054e-03  +1.1980213930e-03  1.004    positive (converged)
+   0.40   1    +1.8343917301e-04  +1.8231662510e-04  1.006    positive (converged)
+   0.45   1    +1.6648321606e-05  +1.6343526406e-05  1.019    positive (converged)
+   0.50   1    +1.2324141827e-06  +1.0166154072e-06  1.212    below resolution
+   0.55   2    +3.7750522123e-07  +1.3962804869e-07  2.704    below resolution
+   0.60   2    +3.6386813979e-07  +9.8468488810e-08  3.695    below resolution
+   0.70   3    +2.4785602414e-07  +7.2072773123e-08  3.439    below resolution
+   0.85   4    +2.3935569159e-07  +6.6729495095e-08  3.587    below resolution
+   1.00   5    +2.0076291417e-07  +5.5623926901e-08  3.609    below resolution
+
+### chi mod 3 (odd)   [nu=0.75 q=3 pole=False]
+   a      #n   lam1(N=800)        lam1(N=1600)       ratio    verdict
+   0.20   0    +6.2394153020e-01  +6.2364796396e-01  1.000    positive (converged)
+   0.30   0    +2.6712834735e-01  +2.6685059752e-01  1.001    positive (converged)
+   0.35   1    +1.3875592587e-01  +1.3855155980e-01  1.001    positive (converged)
+   0.40   1    +7.6359338625e-02  +7.6243120728e-02  1.002    positive (converged)
+   0.45   1    +4.1676915130e-02  +4.1600378696e-02  1.002    positive (converged)
+   0.50   1    +2.1259621089e-02  +2.1209874779e-02  1.002    positive (converged)
+   0.55   1    +9.6097114028e-03  +9.5798211365e-03  1.003    positive (converged)
+   0.60   1    +3.5513417573e-03  +3.5357487293e-03  1.004    positive (converged)
+   0.70   2    +2.0727886220e-04  +2.0572339521e-04  1.008    positive (converged)
+   0.85   3    +1.5050493437e-06  +1.2727324839e-06  1.183    below resolution
+   1.00   4    +3.5577369144e-07  +9.7379848974e-08  3.653    below resolution
+
+### chi mod 4 (odd)   [nu=0.75 q=4 pole=False]
+   a      #n   lam1(N=800)        lam1(N=1600)       ratio    verdict
+   0.20   0    +9.1162337535e-01  +9.1132993431e-01  1.000    positive (converged)
+   0.30   0    +5.5481020294e-01  +5.5453257270e-01  1.001    positive (converged)
+   0.35   0    +4.2492443450e-01  +4.2465462338e-01  1.001    positive (converged)
+   0.40   0    +3.1558764835e-01  +3.1532556736e-01  1.001    positive (converged)
+   0.45   0    +2.2190823558e-01  +2.2165377578e-01  1.001    positive (converged)
+   0.50   0    +1.4054099287e-01  +1.4029402869e-01  1.002    positive (converged)
+   0.55   1    +6.9147676145e-02  +6.8976418270e-02  1.002    positive (converged)
+   0.60   1    +3.4602200449e-02  +3.4508006605e-02  1.003    positive (converged)
+   0.70   1    +6.5807309029e-03  +6.5503938751e-03  1.005    positive (converged)
+   0.85   2    +1.4501466306e-04  +1.4368683841e-04  1.009    positive (converged)
+   1.00   3    +8.9721638524e-07  +6.8400731430e-07  1.312    below resolution
+
+### chi mod 5 quadratic (even)   [nu=0.25 q=5 pole=False]
+   a      #n   lam1(N=800)        lam1(N=1600)       ratio    verdict
+   0.20   0    +9.4217925033e-01  +9.4182247140e-01  1.000    positive (converged)
+   0.30   0    +4.9011831783e-01  +4.8974660584e-01  1.001    positive (converged)
+   0.35   1    +3.1501203849e-01  +3.1471786585e-01  1.001    positive (converged)
+   0.40   1    +2.1629822967e-01  +2.1608879843e-01  1.001    positive (converged)
+   0.45   1    +1.4628425523e-01  +1.4610357191e-01  1.001    positive (converged)
+   0.50   1    +9.0454055578e-02  +9.0287957140e-02  1.002    positive (converged)
+   0.55   2    +4.3186469851e-02  +4.3072118243e-02  1.003    positive (converged)
+   0.60   2    +2.0433775112e-02  +2.0373948028e-02  1.003    positive (converged)
+   0.70   3    +4.7995963773e-03  +4.7840344949e-03  1.003    positive (converged)
+   0.85   3    +2.0605349522e-04  +2.0423758462e-04  1.009    positive (converged)
+   1.00   4    +2.3409319392e-06  +2.1052297102e-06  1.112    below resolution
+
+### chi mod 8 (even)   [nu=0.25 q=8 pole=False]
+   a      #n   lam1(N=800)        lam1(N=1600)       ratio    verdict
+   0.20   0    +1.4121824436e+00  +1.4118259041e+00  1.000    positive (converged)
+   0.30   0    +9.6012149711e-01  +9.5975003201e-01  1.000    positive (converged)
+   0.35   0    +7.8304637425e-01  +7.8266777383e-01  1.000    positive (converged)
+   0.40   0    +6.2687079469e-01  +6.2648530097e-01  1.001    positive (converged)
+   0.45   0    +4.8674579681e-01  +4.8635366800e-01  1.001    positive (converged)
+   0.50   0    +3.5936616273e-01  +3.5896767288e-01  1.001    positive (converged)
+   0.55   1    +2.4245906370e-01  +2.4216201585e-01  1.001    positive (converged)
+   0.60   1    +1.7488804207e-01  +1.7467017054e-01  1.001    positive (converged)
+   0.70   1    +8.7310361035e-02  +8.7149692778e-02  1.002    positive (converged)
+   0.85   2    +1.2432923637e-02  +1.2378742894e-02  1.004    positive (converged)
+   1.00   3    +9.3067595543e-04  +9.2455440405e-04  1.007    positive (converged)
+
+### C1 control: zeta primes, pole term removed   [nu=0.25 q=1 pole=False]
+   a      #n   lam1(N=800)        lam1(N=1600)       ratio    verdict
+   0.20   0    -6.6725717092e-01  -6.6761476853e-01  0.999    NEGATIVE (converged)
+   0.30   0    -1.1193180554e+00  -1.1196906118e+00  1.000    NEGATIVE (converged)
+   0.35   1    -1.2988191200e+00  -1.2993066963e+00  1.000    NEGATIVE (converged)
+   0.40   1    -1.5387065446e+00  -1.5393523768e+00  1.000    NEGATIVE (converged)
+   0.45   1    -1.7753954015e+00  -1.7760588321e+00  1.000    NEGATIVE (converged)
+   0.50   1    -1.9861778162e+00  -1.9868288056e+00  1.000    NEGATIVE (converged)
+   0.55   2    -2.1718415204e+00  -2.1726822273e+00  1.000    NEGATIVE (converged)
+   0.60   2    -2.4150253529e+00  -2.4159998692e+00  1.000    NEGATIVE (converged)
+   0.70   3    -2.8650706523e+00  -2.8661631232e+00  1.000    NEGATIVE (converged)
+   0.85   4    -3.5700640784e+00  -3.5715474400e+00  1.000    NEGATIVE (converged)
+   1.00   5    -4.3023933210e+00  -4.3042132242e+00  1.000    NEGATIVE (converged)
+
+### C2 control: chi mod 3 with wrong parity nu=1/4   [nu=0.25 q=3 pole=False]
+   a      #n   lam1(N=800)        lam1(N=1600)       ratio    verdict
+   0.20   0    +4.3135410012e-01  +4.3099706117e-01  1.001    positive (converged)
+   0.30   0    -2.0706817128e-02  -2.1078797264e-02  0.982    NEGATIVE (converged)
+   0.35   1    -1.9581319061e-01  -1.9610758133e-01  0.998    NEGATIVE (converged)
+   0.40   1    -2.9452711149e-01  -2.9473669885e-01  0.999    NEGATIVE (converged)
+   0.45   1    -3.6454112198e-01  -3.6472194170e-01  1.000    NEGATIVE (converged)
+   0.50   1    -4.2037134018e-01  -4.2053756460e-01  1.000    NEGATIVE (converged)
+   0.55   1    -4.6767206717e-01  -4.6783040245e-01  1.000    NEGATIVE (converged)
+   0.60   1    -5.0962978945e-01  -5.0978621902e-01  1.000    NEGATIVE (converged)
+   0.70   2    -5.8693977659e-01  -5.8715659322e-01  1.000    NEGATIVE (converged)
+   0.85   3    -7.7486864075e-01  -7.7510209863e-01  1.000    NEGATIVE (converged)
+   1.00   4    -8.7575283892e-01  -8.7605517817e-01  1.000    NEGATIVE (converged)
+
+### C3 control: chi mod 3 with prime signs flipped   [nu=0.75 q=3 pole=False]
+   a      #n   lam1(N=800)        lam1(N=1600)       ratio    verdict
+   0.20   0    +6.2394153020e-01  +6.2364796396e-01  1.000    positive (converged)
+   0.30   0    +2.6712834735e-01  +2.6685059752e-01  1.001    positive (converged)
+   0.35   1    +1.3534437226e-01  +1.3498909026e-01  1.003    positive (converged)
+   0.40   1    -4.9181473654e-02  -4.9688530783e-02  0.990    NEGATIVE (converged)
+   0.45   1    -2.3747284885e-01  -2.3799438193e-01  0.998    NEGATIVE (converged)
+   0.50   1    -4.0247049751e-01  -4.0296737480e-01  0.999    NEGATIVE (converged)
+   0.55   1    -5.4275596203e-01  -5.4321981851e-01  0.999    NEGATIVE (converged)
+   0.60   1    -6.6258408781e-01  -6.6301942439e-01  0.999    NEGATIVE (converged)
+   0.70   2    -8.5682403478e-01  -8.5716592901e-01  1.000    NEGATIVE (converged)
+   0.85   3    -1.0515523485e+00  -1.0520167105e+00  1.000    NEGATIVE (converged)
+   1.00   4    -1.2861210034e+00  -1.2864131062e+00  1.000    NEGATIVE (converged)
+
+[96s] GRH_POSITIVITY_DONE

@@ -1,0 +1,47 @@
+<div class="story">
+  <h2>A question from 1859, answered in 2026</h2>
+  <p>The Riemann Hypothesis says that the prime numbers are spread as evenly as they can be. For 167 years it was the most famous open problem in mathematics. This page is about what the answer looks like when you can touch it.</p>
+
+  <div class="tl">
+    <div class="e"><div class="y">1859</div><div class="t">Riemann states the hypothesis</div><div class="d">All non-trivial zeros of the zeta function lie on one vertical line. Equivalently, the primes follow their average law with the smallest possible error.</div></div>
+    <div class="e"><div class="y">1952</div><div class="t">Weil turns it into a sign</div><div class="d">André Weil shows the hypothesis is the same statement as the positivity of one quadratic form, with the primes on one side and the Gamma factor on the other. A question about infinitely many zeros becomes a question about a plus or minus sign.</div></div>
+    <div class="e"><div class="y">June 2026</div><div class="t">Suzuki writes the form as an operator</div><div class="d">Masatoshi Suzuki of the Institute of Science Tokyo expresses Weil's form through the screw function as a self-adjoint operator on an interval. The paper is pure theory.</div></div>
+    <div class="e"><div class="y">July 2026</div><div class="t">VIDRAFT makes the operator computable</div><div class="d">The first numerical realization of Suzuki's operator. Its spectrum is mapped, its constants are found in closed form, and the lowest eigenvalue for the zeta function is measured: positive.</div></div>
+    <div class="e hot"><div class="y">20 November 2026</div><div class="t">Alpöge and Claude announce the proof</div><div class="d">A formal proof in Lean, 175,187 files, covering the zeta function and Dirichlet L-functions. Their route passes through the same positivity that Weil identified.</div></div>
+    <div class="e hot"><div class="y">21 November 2026</div><div class="t">The gauge goes live</div><div class="d">VIDRAFT extends its operator to Dirichlet L-functions and opens it to everyone. Genuine objects stay positive. Imitations go negative. You can run it above.</div></div>
+  </div>
+
+  <h2>What the gauge proves to your eyes</h2>
+  <div class="cards">
+    <div class="card"><h3 class="g">Genuine stays positive</h3><p>The zeta function and Dirichlet L-functions of conductor 3, 4, 5 and 8 keep the needle above zero across the whole resolvable range.</p></div>
+    <div class="card"><h3 class="r">Imitation goes negative</h3><p>Flip the signs of the primes, give the Gamma factor the wrong parity, or drop the pole term. One change is enough and the form turns negative, converged to three digits.</p></div>
+    <div class="card"><h3 class="a">The form knows arithmetic</h3><p>The difference between a true L-function and a copy is invisible to the eye and decisive for the sign. That sensitivity is the content of the Riemann Hypothesis.</p></div>
+  </div>
+
+  <h2>The Cyclic Phase Hypothesis</h2>
+  <p>The spectrum of the operator follows a closed form. One number in it, the one half, has an author.</p>
+  <div class="eq">mu_k = log(k - 1/2) + gamma + log(pi/2)</div>
+  <div class="phase">
+    <svg viewBox="0 0 260 200" width="260" height="200" xmlns="http://www.w3.org/2000/svg">
+      <circle cx="130" cy="100" r="68" fill="none" stroke="#243049" stroke-width="2"/>
+      <path d="M130 32 A68 68 0 1 1 129.9 32" fill="none" stroke="#ffb547" stroke-width="4" stroke-linecap="round" stroke-dasharray="427" stroke-dashoffset="427"><animate attributeName="stroke-dashoffset" from="427" to="0" dur="3.2s" repeatCount="indefinite"/></path>
+      <circle cx="130" cy="32" r="6" fill="#2dd4a7"/>
+      <text x="130" y="96" text-anchor="middle" fill="#e8ecf5" font-family="JetBrains Mono, monospace" font-size="15">-1/2  to  +1/2</text>
+      <text x="130" y="118" text-anchor="middle" fill="#9aa4b8" font-family="Inter, sans-serif" font-size="12">one full turn = 1</text>
+      <text x="130" y="22" text-anchor="middle" fill="#2dd4a7" font-family="Inter, sans-serif" font-size="11">boundary</text>
+    </svg>
+    <div>
+      <p><b style="color:#fff">Taebong Kim</b>, chairman of VIDRAFT, proposed that the one half is a phase that winds once around the boundary. He drew it from two features of the spectrum: the shifts of the eigenvalues sum to zero, and the even and odd modes follow a cycle.</p>
+      <p>The test was a sweep from Dirichlet to Neumann boundary conditions. The offset moved from minus one half to plus one half, an integer step of exactly one. The hypothesis was confirmed and the offset was identified as the boundary Maslov phase.</p>
+    </div>
+  </div>
+
+  <h2>A law found along the way</h2>
+  <p>At the ends of the interval the eigenfunctions vanish like the inverse square root of a logarithm, <span style="font-family:'JetBrains Mono',monospace;color:#ffb547">u(d) ~ (log(1/d))^(-1/2)</span>. The gauge measures it directly in the third tab. It is the optimal boundary rate of the logarithmic Laplacian, proved in 2024 by Hernández-Santamaría, López Ríos and Saldaña, observed here for the Weil operator.</p>
+
+  <h2>Credits</h2>
+  <p><b style="color:#fff">The proof of the Riemann Hypothesis:</b> Levent Alpöge and Claude (Anthropic).<br>
+     <b style="color:#fff">The operator:</b> Masatoshi Suzuki, "Weil's quadratic form via the screw function", arXiv:2606.09096.<br>
+     <b style="color:#fff">The Cyclic Phase Hypothesis:</b> Taebong Kim, VIDRAFT.<br>
+     <b style="color:#fff">The numerical realization, the gauge, the boundary law, the machine-checked files:</b> VIDRAFT.</p>
+</div>
