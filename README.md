@@ -106,7 +106,7 @@ Verified with Lean 4.37.0-rc1 and Mathlib `3eae40f`, standard axioms only:
 
 ## 4. Independent reproduction of the proof
 
-VIDRAFT compiles the released proof from scratch and queries the Lean kernel for the axioms of the final theorem. Archive SHA-256 `9631b4f0…49c7fc`, 175,187 files, Lean 4.33.1, Mathlib `0df444a3`. `Main.lean` states `riemannHypothesis`, `riemannZeta_eq_zero_re`, `LFunction_ne_zero_of_half_lt_re` and `LFunction_eq_zero_re`. A 192-core node builds the tree at 250 files per minute. The result is posted on the Space.
+VIDRAFT compiles the released proof from scratch and queries the Lean kernel for the axioms of the final theorem. Archive SHA-256 `9631b4f0…49c7fc`, 175,187 files, Lean 4.33.1, Mathlib `0df444a3`. `Main.lean` states `riemannHypothesis`, `riemannZeta_eq_zero_re`, `LFunction_ne_zero_of_half_lt_re` and `LFunction_eq_zero_re`. The full tree compiled on 22 November 2026: 183,903 build jobs, 175,187 modules, zero errors, 17.5 hours on 8 RTX PRO 6000 GPUs with 192 CPU cores. The Lean kernel reports `'riemannHypothesis' depends on axioms: [propext, Classical.choice, Quot.sound]`, the three standard axioms of Lean and Mathlib. VIDRAFT independently reproduced the formal proof.
 
 ## 5. The Cyclic Phase Hypothesis
 
