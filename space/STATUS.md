@@ -1,6 +1,6 @@
 ### Independent reproduction of the released proof
 
-VIDRAFT compiles the released Lean proof from scratch on its own hardware and asks the Lean kernel which axioms the final theorem uses.
+VIDRAFT compiled the released Lean proof from scratch on its own hardware and asked the Lean kernel which axioms the final theorem uses. **Independently reproduced.**
 
 | Item | Value |
 |---|---|
@@ -9,7 +9,10 @@ VIDRAFT compiles the released Lean proof from scratch on its own hardware and as
 | Size | 175,187 Lean files, 17,374,215 lines |
 | Toolchain | Lean 4.33.1, Mathlib pinned at `0df444a3` |
 | Final theorems in `Main.lean` | `riemannHypothesis`, `riemannZeta_eq_zero_re`, `LFunction_ne_zero_of_half_lt_re`, `LFunction_eq_zero_re` |
-| Measured build rate | 250 files per minute on a 192-core node (21 November 2026), about 12 hours for the full tree |
-| Status | Full build scheduled. |
+| Build | 183,903 jobs, 175,187 modules, 0 errors, 17.5 hours on 8x RTX PRO 6000 / 192 cores, completed 22 November 2026 |
+| Kernel axioms of `riemannHypothesis` | `propext`, `Classical.choice`, `Quot.sound` (standard axioms only) |
 
-This page is updated with the build result and the output of `#print axioms riemannHypothesis`.
+```
+'riemannHypothesis' depends on axioms: [propext, Classical.choice, Quot.sound]
+Build completed successfully (183903 jobs).
+```
